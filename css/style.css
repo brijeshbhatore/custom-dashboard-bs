@@ -1,0 +1,35 @@
+*{
+    font-family: 'Bruno Ace', cursive;
+    font-family: 'Bruno Ace SC', cursive;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+.chopped-button{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #24303b;
+    background-color: #ceb77d;
+    border: solid 8px #606060;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    overflow: hidden;
+    position: relative;
+}
+.chopped-button:before{
+    content: '';
+    position: absolute;
+    left: -20px;
+    bottom: -20px;
+    padding: 20px;
+    background-color: #606060;
+    transform: rotate(45deg);
+}
+.chopped-button:after{
+    content: '';
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    padding: 20px;
+    background-color: #606060;
+    transform: rotate(-45deg);
+}
